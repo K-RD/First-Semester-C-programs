@@ -12,7 +12,4 @@ int main(){
 	printf("The distance in CM is: %f CM\n",dcm);
 	printf("The distance in FEET is: %f Feet\n",df);
 	printf("The distance in INCH is: %f Inch\n",di);
-	
-//	printf("hii %f  it %f  is %f 12 %f  %f ",dist,dm,dcm,df,di,end="\n");
-	
 }

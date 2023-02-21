@@ -4,13 +4,13 @@
 int fact(int n){
 	
 	int i;
-	double fact=1;
+	double fact=0;
 	
 	for(i=1;i<=n;i++){
-		fact*=i;
+		fact+=i;
 	}
 
-	printf("Factorial of %d is %.1f",n,fact);
+	printf("sum of first %d natural number is %.1f",n,fact);
 }
 
 
@@ -18,7 +18,7 @@ int main(){
 	
 	int n;
 	
-	printf("Enter a number to find its factorial:: ");
+	printf("Enter a number:: ");
 	scanf("%d",&n);
 	fact(n);
 

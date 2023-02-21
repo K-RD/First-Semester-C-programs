@@ -1,3 +1,4 @@
+//Program to print prime number till 50.
 #include<stdio.h>
 
 int prime(){

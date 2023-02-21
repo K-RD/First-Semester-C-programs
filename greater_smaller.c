@@ -1,3 +1,4 @@
+//Program to print which is greater and which is smaller number.
 #include<stdio.h>
 
 int main()
@@ -11,4 +12,3 @@ int main()
     else
 	printf("\n\n\n A is less than B");
 }
-

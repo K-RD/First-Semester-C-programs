@@ -1,9 +1,9 @@
-
+//Program to print the address of given decleared variables.
 #include<stdio.h>
 
 int main()
 {
-	 char a;
+	char a;
     int x,y;
     float p,q;
 
@@ -12,22 +12,15 @@ int main()
     y=125;
     p=10.25,q=18.76;
 
-    printf("%c is stored at address %u\n",a,&a);
-    printf("%d is stored at address %u\n",x,&x);
-    printf("%d is stored at address %u\n",y,&y);
-    printf("%f is stored at address %u\n",p,&p);
-    printf("%f is stored at address %u\n",q,&q);
+    printf("%u is address of %c\n",&a,a);
+    printf("%u is address of %d\n",&x,x);
+    printf("%u is address of %d\n",&y,y);
+    printf("%u is address of %f\n",&p,p);
+    printf("%u is address of %f\n",&q,q);
     
     x=12;
-    printf("%d is stored at address %u\n",x,&x);
-    
-    
-    // Hence we can say that int is mutable data type in c language.
+    printf("%u is address of %d\n",&x,x);
     
     return 0;
-
-
-
-return 0;
 }
 

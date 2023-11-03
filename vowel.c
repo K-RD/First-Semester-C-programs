@@ -10,23 +10,14 @@ int main()
 	switch(c)
 	{
 		case 'A':
-			printf("\n %c is a vowel",c);
 		case 'E':
-			printf("\n %c is a vowel",c);
 		case 'I':
-			printf("\n %c is a vowel",c);
 		case 'O':
-			printf("\n %c is a vowel",c);
 		case 'U':
-			printf("\n %c is a vowel",c);
 		case 'a':
-			printf("\n %c is a vowel",c);
 		case 'e':
-			printf("\n %c is a vowel",c);
 		case 'i':
-			printf("\n %c is a vowel",c);
 		case 'o':
-			printf("\n %c is a vowel",c);
 		case 'u':
 			printf("\n %c is a vowel",c);
 			break;
